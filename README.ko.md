@@ -2,7 +2,7 @@
 
 소셜 게시물을 출처를 확인할 수 있는 사례집, 방법 분석, 이미지가 포함된 조사 문서로 정리하는 skill입니다.
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 ## 어떤 조사에 활용하는가
 
@@ -110,7 +110,7 @@ HTTP 클라이언트는 `CLAUDEBABY_MCP_URL`, `CLAUDEBABY_MCP_TOKEN`을 읽으�
 ```text
 social-case-to-excel/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ko.md
+├── README*.md
 ├── assets/readme/
 ├── outputs/
 ├── references/
