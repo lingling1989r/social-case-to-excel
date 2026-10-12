@@ -2,7 +2,7 @@
 
 Turn social posts into traceable case libraries, method breakdowns and illustrated research documents.
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 ## What we use it for
 
@@ -112,7 +112,7 @@ If this skill or its samples help your research, you are welcome to ⭐ Star thi
 ```text
 social-case-to-excel/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ko.md
+├── README*.md
 ├── assets/readme/
 ├── outputs/
 ├── references/
