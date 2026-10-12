@@ -85,4 +85,4 @@ social-case-to-excel/
 npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
 ```
 
-[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/releases/latest)
+[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
