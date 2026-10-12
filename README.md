@@ -2,7 +2,7 @@
 
 将社媒记录整理成可回查的案例库、方法拆解和图文学习文档。
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
+[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 ## 这个 skill 用来做什么
 
@@ -112,7 +112,7 @@ python3 scripts/claudebaby_preflight.py --probe  # MCP 握手与工具发现
 ```text
 social-case-to-excel/
 ├── SKILL.md
-├── README.md / README.en.md / README.ja.md / README.ko.md
+├── README*.md
 ├── assets/readme/
 ├── outputs/
 ├── references/
