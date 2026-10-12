@@ -18,6 +18,46 @@ Hardware brands are one research sample. Topics can also include AI advertising,
 | Research document | Findings, cases and methods in readable Markdown; HTML when requested |
 | Candidate records | Search scope and rejected candidates for review and follow-up work |
 
+## Ways to use it: from examples to business decisions
+
+Start with a business question, then turn public records into evidence, methods and options.
+
+| Use case | Research task | What it helps you do |
+| --- | --- | --- |
+| B2B acquisition | Study channel activity, content, community participation and reported outcomes | Build a case library and plan channel/content experiments |
+| Brand and overseas launch research | Reconstruct early activity across official accounts, users, media and moderators | Create timelines and learn launch methods |
+| AI creative advertising | Analyze image/video concepts, AI techniques and production evidence | Build creative references and adaptable prompt drafts; inferred prompts are not original creator prompts |
+| Market and product research | Identify users, jobs, obstacles and desired features | Map scenarios and prepare validation questions |
+| Competitor analysis | Compare positioning, functions, bundles and services | Develop evidence-based differentiation hypotheses |
+| Reviews and negative feedback | Read actual praise, complaints and usage barriers | Improve products, FAQs and content; a small sample is not market share |
+| Reddit communities | Examine discussions, rules, needs and promotional content | Plan useful community participation without fake testimonials or bulk posting |
+| Public-sector social listening | Track public policies, service feedback and open discussions | Produce neutral issue summaries and timelines; online activity is not a public-opinion poll |
+| 1688 sourcing | Compare suppliers, kits, SKUs, minimum orders and tier prices | Prepare procurement candidates and verification questions; listings do not certify quality or authorization |
+| Cross-marketplace pricing | Compare 1688, Amazon, Temu and Walmart by model, pack size and included functions | Study productization without treating price differences as profit |
+
+Commerce, sourcing and public-issue studies are adaptable workflows, **not bundled one-click features**. Use the ClaudeBaby tools actually exposed by the host, verify fields and report missing coverage. Adapt the output schema to the task.
+
+## What we have used this workflow for
+
+| Study | Intent | Goal supported |
+| --- | --- | --- |
+| Chinese brands' first overseas year, especially X and Reddit | Find early actions and non-official discussion | Learn launch and community methods |
+| B2B social acquisition | Understand trust-building and inquiry generation | Design channel experiments |
+| Independent sites, SEO/GEO and Reddit, excluding pure promotional posts | Find practices with processes and evidence | Choose search, content and community approaches |
+| AI creative ads | Learn concepts and methods for other brands | Prepare creative references and production plans, not claim campaign results |
+| ESP32 with agents/AI | Find useful, reproducible hardware scenarios | Inform AuraBaba integration, demo content and acquisition plans |
+| ESP32 sourcing and overseas product comparisons | Check low-cost parts, complete kits and actual SKUs | Prepare procurement and productization options, not claim purchases, manufacturing or profit |
+
+The sequence is: **find examples → analyze methods → identify users and needs → design experiments → choose sourcing and content paths**. Development, publishing, purchasing and conversion still require separate execution and validation.
+
+## Example requests
+
+- “Research B2B acquisition cases in our industry, with methods, outcome evidence, audience fit and an illustrated workbook.”
+- “Read actual competitor reviews and complaints; retain source text and distinguish needs from your recommendations.”
+- “Query complete 1688 development kits through ClaudeBaby; verify SKUs, minimum orders, included parts and prices.”
+- “Compare domestic sourcing and overseas offers by model and pack size, separating facts, hypotheses and advice.”
+- “Neutrally summarize a public institution's policies, service feedback and discussion over a defined time window.”
+
 ## Example: the first year of Chinese brands overseas
 
 One historical study organized 44 events across OnePlus, Anker, Bambu Lab, Keychron, Snapmaker and EcoFlow. It separated pre-launch activity, first-year records and other early clues, and included official accounts, media, community moderators and users.
@@ -86,3 +126,4 @@ npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
 ```
 
 [GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
+
