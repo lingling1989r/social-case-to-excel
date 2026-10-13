@@ -105,7 +105,7 @@ python3 scripts/claudebaby_preflight.py --probe  # MCP 握手与工具发现
 
 ## ClaudeBaby 与项目
 
-[ClaudeBaby 邀请注册](https://claudebaby.cn/console/register?ref=M8YYGRN4) · 邀请码：`M8YYGRN4`。通过该链接注册可领取邀请积分；已有账户可直接使用现有连接。
+[ClaudeBaby 邀请注册](https://claudebaby.cn/console/register?ref=M8YYGRN4) · 邀请码：`M8YYGRN4`。欢迎大家给我项目星标，也欢迎大家通过该链接注册可领取邀请积分；已有账户可直接使用现有连接。
 
 如果这个 skill 或示例对你的调研有帮助，欢迎给本仓库点一个 ⭐ Star。
 
