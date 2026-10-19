@@ -103,10 +103,12 @@ social-case-to-excel/
 └── scripts/
 ```
 
-## Instalación
+## Instalar compartiendo el enlace del repositorio con tu Agent
 
-```bash
-npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
-```
+No necesitas clonar, descargar, descomprimir ni ejecutar comandos. Copia la https://github.com/lingling1989r/social-case-to-excel del repositorio, pégala en el chat de un Agent compatible con Skills y envía este prompt:
 
-[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
+> Instala el Skill de este repositorio de GitHub en tu entorno Agent actual: https://github.com/lingling1989r/social-case-to-excel. Primero revisa la estructura del repositorio y SKILL.md. Usa el método admitido por esta plataforma, instálalo en un directorio skills disponible, comprueba que está instalado y dime cómo invocarlo. Durante la instalación no ejecutes scripts del repositorio ni conectes servicios externos. Si aquí no puedes acceder a GitHub o escribir archivos, dime el siguiente paso exacto; no afirmes que se instaló.
+
+Después, llama a $social-case-to-excel en el mismo Agent e indica tema, plataformas, periodo y cantidad de casos. La instalación directa mediante enlace depende de las funciones de importación de Skills de cada producto (Codex, Claude Code, Cursor, WorkBuddy, etc.). Si un chat web no puede acceder a GitHub o escribir archivos, sigue su procedimiento de importación.
+
+[Repositorio de GitHub](https://github.com/lingling1989r/social-case-to-excel) · Si no se admite la instalación por enlace, pide al Agent los pasos de importación compatibles.

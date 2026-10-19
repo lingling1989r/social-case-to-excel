@@ -117,11 +117,12 @@ social-case-to-excel/
 └── scripts/
 ```
 
-## Installation / 安装 / インストール / 설치
+## Agentにリポジトリのリンクを渡してインストール
 
-```bash
-npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
-```
+自分でclone、ダウンロード、解凍、コマンド実行をする必要はありません。リポジトリhttps://github.com/lingling1989r/social-case-to-excelをコピーし、Skills対応Agentのチャットに貼り付けて、次の指示を送ってください。
 
-[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
+> このGitHubリポジトリから、現在のAgent環境にSkillをインストールしてください：https://github.com/lingling1989r/social-case-to-excel。最初にリポジトリ構成とSKILL.mdを確認し、このプラットフォームが対応する方法で利用可能なskillsディレクトリにインストールしてください。ファイルの存在を確認し、呼び出し方を教えてください。インストール時にリポジトリのスクリプトを実行したり、外部サービスに接続したりしないでください。アクセスや書き込みができない場合は、必要な次の操作を具体的に教え、インストール済みと報告しないでください。
 
+インストール後、同じAgentで $social-case-to-excel を呼び出し、テーマ、対象SNS、期間、件数を指定してください。Codex、Claude Code、Cursor、WorkBuddyなどがリンクから直接インストールできるかは、各製品の現在のSkill取り込み機能によります。WebチャットがGitHubやファイル書き込みに対応していない場合は、その製品のインポート手順を利用してください。
+
+[GitHubリポジトリ](https://github.com/lingling1989r/social-case-to-excel) · リンクから導入できない場合は、Agentに対応するインポート方法を確認してください。

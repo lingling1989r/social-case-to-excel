@@ -117,11 +117,12 @@ social-case-to-excel/
 └── scripts/
 ```
 
-## Installation / 安装 / インストール / 설치
+## 저장소 링크를 Agent에 보내 설치하기
 
-```bash
-npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
-```
+직접 clone, 다운로드, 압축 해제 또는 명령 실행을 할 필요가 없습니다. 저장소 https://github.com/lingling1989r/social-case-to-excel을 복사해 Skills를 지원하는 Agent 대화창에 붙여 넣고 다음 프롬프트를 보내세요.
 
-[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
+> 이 GitHub 저장소에서 현재 Agent 환경에 Skill을 설치해 주세요: https://github.com/lingling1989r/social-case-to-excel. 먼저 저장소 구조와 SKILL.md를 확인하세요. 현재 플랫폼에서 지원하는 방법으로 사용 가능한 skills 디렉터리에 설치하고 파일이 있는지 검증한 뒤 호출 방법을 알려 주세요. 설치 중 저장소 스크립트를 실행하거나 외부 서비스에 연결하지 마세요. GitHub 접근이나 파일 쓰기가 불가능하다면 필요한 다음 단계를 정확히 알려 주고, 설치 완료라고 말하지 마세요.
 
+설치 후 같은 Agent에서 $social-case-to-excel을 호출하고 주제, 플랫폼, 기간, 사례 수를 입력하세요. Codex, Claude Code, Cursor, WorkBuddy 등이 링크로 직접 설치할 수 있는지는 각 제품의 현재 Skill 가져오기 기능에 따라 달라집니다. 웹 채팅에서 GitHub 접근이나 파일 쓰기를 지원하지 않으면 해당 제품의 가져오기 절차를 이용하세요.
+
+[GitHub 저장소](https://github.com/lingling1989r/social-case-to-excel) · 링크 설치를 지원하지 않으면 Agent에 해당 플랫폼의 가져오기 방법을 물어보세요.

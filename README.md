@@ -119,11 +119,12 @@ social-case-to-excel/
 └── scripts/
 ```
 
-## Installation / 安装 / インストール / 설치
+## 安装：把仓库链接发给 Agent
 
-```bash
-npx skills add lingling1989r/social-case-to-excel --skill social-case-to-excel
-```
+不需要自己下载、解压或运行命令。复制仓库链接，粘贴到支持 Skills 的 Agent 对话框，再发送：
 
-[GitHub](https://github.com/lingling1989r/social-case-to-excel) · [ZIP](https://github.com/lingling1989r/social-case-to-excel/archive/refs/heads/main.zip)
+> 请从这个 GitHub 仓库为你当前的 Agent 环境安装 Skill：https://github.com/lingling1989r/social-case-to-excel。请先检查仓库结构和 SKILL.md，再按当前平台支持的方式安装到可用的 skills 目录；安装后验证文件存在，并告诉我如何调用。不要执行仓库脚本或连接外部服务。若当前环境无法访问 GitHub 或写入 skills 目录，请明确告诉我下一步需要做什么，不要声称安装成功。
 
+安装完成后，在同一对话中调用 $social-case-to-excel，并提供主题、平台、时间范围和案例数量。Codex、Claude Code、Cursor、WorkBuddy 等产品能否直接按链接安装，取决于各自当前的 Skill 导入能力；纯网页聊天若不能访问 GitHub 或写入 Skill 目录，就按平台自己的导入方式操作。
+
+[GitHub 仓库](https://github.com/lingling1989r/social-case-to-excel) · Agent 无法按链接安装时，请让它说明该平台支持的导入步骤。
