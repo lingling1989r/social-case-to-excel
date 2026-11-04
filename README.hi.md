@@ -2,7 +2,7 @@
 
 सोशल पोस्ट को स्रोतों से जुड़े केस संग्रह, तरीकों के विश्लेषण और चित्रों सहित शोध दस्तावेज़ में बदलें।
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
+[简体中文](README.zh-CN.md) · [English](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
 ## उपयोग और आउटपुट
 

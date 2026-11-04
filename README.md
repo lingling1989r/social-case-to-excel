@@ -1,113 +1,113 @@
 # social-case-to-excel
 
-将社媒记录整理成可回查的案例库、方法拆解和图文学习文档。
+Turn social posts into traceable case libraries, method breakdowns and illustrated research documents.
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
+[简体中文](README.zh-CN.md) · [English](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Español](README.es.md) · [Italiano](README.it.md) · [Português](README.pt.md) · [हिन्दी](README.hi.md)
 
-## 这个 skill 用来做什么
+## What we use it for
 
-我们用这个流程做过品牌出海历史追溯、社媒运营案例整理和评论需求分析。它不仅汇总“谁做了什么”，还会整理公开效果、拆解执行方法，并说明不同品牌和品类可以参考哪些动作。
+We have used this workflow to reconstruct brands’ early overseas activity, organize social marketing cases and analyze customer needs in comments. Each case covers the action, available outcome evidence, execution steps and what other brands can adapt.
 
-设备品牌是其中一个研究样本，主题也可以是 AI 创意广告、产品冷启动、跨境电商或内容运营。研究对象与范围由使用者指定。
+Hardware brands are one research sample. Topics can also include AI advertising, product launches, cross-border commerce and content operations.
 
-| 输出 | 内容 |
+| Deliverable | Contents |
 | --- | --- |
-| Excel 案例库 | 案例主体、动作、公开效果、原帖链接、日期、证据限制与分类 |
-| 方法拆解 | 逐条步骤、实施前提、不同品牌如何参考 |
-| 配图与截图 | 对应原帖图片、视频封面或截图，嵌入表格并附来源说明 |
-| 图文学习文档 | 把发现、案例和方法组织成可阅读的文档；需要时补 HTML |
-| 原始候选池 | 保留检索范围与未入选记录，便于复核和增量研究 |
+| Excel case library | Actors, actions, reported outcomes, dates, source links, categories and evidence limits |
+| Method breakdown | Steps, prerequisites and adaptations for different brands |
+| Images and screenshots | Matched post images, video covers or screenshots with captions and source references |
+| Research document | Findings, cases and methods in readable Markdown; HTML when requested |
+| Candidate records | Search scope and rejected candidates for review and follow-up work |
 
-## 可以怎样使用：从案例学习到业务决策
+## Ways to use it: from examples to business decisions
 
-不要只把它当成“搜帖子、导出 Excel”。你可以先提出一个业务问题，再让 skill 把公开记录整理成证据、方法和行动参考。
+Start with a business question, then turn public records into evidence, methods and options.
 
-| 应用场景 | 可以研究什么 | 产出与用途 |
+| Use case | Research task | What it helps you do |
 | --- | --- | --- |
-| B 端获客 | X、小红书、LinkedIn、Facebook 等平台的获客动作、内容、社区参与和公开效果 | 案例库、渠道与内容方法、适合不同业务的试验计划；为自己的获客方案提供参考 |
-| 品牌研究与出海复盘 | 品牌刚起步时做了什么；官方、用户、媒体与管理员如何参与 | 首年时间线、早期线索、传播动作及迁移方法，帮助制定冷启动方案 |
-| AI 创意广告 | 图片/视频广告的创意结构、AI 技法、制作过程与效果证据 | 创意参考、方法拆解、可调整的 prompt 草案和品类应用；不把推导提示词冒充原作者 prompt |
-| 市场与产品场景研究 | 新技术被谁使用、解决什么问题、用户想要哪些功能 | 场景地图、受众、功能机会和验证问题，帮助选择产品方向 |
-| 竞品分析与产品化 | 竞品如何定位、包装功能、提供配件或服务、面向什么用户 | 产品对照、差异点、待验证的定位与改造建议 |
-| 评论、差评与需求洞察 | 用户赞扬、抱怨、使用障碍、替代选择及重复问题 | 带原文依据的问题分类、FAQ、产品改进与内容机会；少量评论不代表市场占比 |
-| Reddit 社区研究 | 相关 subreddit、讨论规则、用户问题、真实案例与营销帖的区别 | 社区参与参考、话题与需求地图；不批量发帖、不伪装自然口碑 |
-| 公共机构与政府社媒聆听 | 公共政策、服务反馈、公开活动和社媒讨论的主题变化 | 中立的议题汇总、时间线与证据附件，供公共服务反馈分析；不把网络声量当民意调查 |
-| 1688 供应商筛选与供应链研究 | 供应商、整套/零件、具体 SKU、起订量、阶梯价、配件与公开服务字段 | 采购候选表、待确认问题、原始数据；不凭商品标题或接口评分认定质量、授权或可靠性 |
-| 跨平台价格与售卖方式 | 1688 与 Amazon、Temu、Walmart 等同类商品的价格、装数、功能与配件 | 可比口径下的价格表与商品化分析；拆分裸板、套件、成品，不把价差直接当利润 |
+| B2B acquisition | Study channel activity, content, community participation and reported outcomes | Build a case library and plan channel/content experiments |
+| Brand and overseas launch research | Reconstruct early activity across official accounts, users, media and moderators | Create timelines and learn launch methods |
+| AI creative advertising | Analyze image/video concepts, AI techniques and production evidence | Build creative references and adaptable prompt drafts; inferred prompts are not original creator prompts |
+| Market and product research | Identify users, jobs, obstacles and desired features | Map scenarios and prepare validation questions |
+| Competitor analysis | Compare positioning, functions, bundles and services | Develop evidence-based differentiation hypotheses |
+| Reviews and negative feedback | Read actual praise, complaints and usage barriers | Improve products, FAQs and content; a small sample is not market share |
+| Reddit communities | Examine discussions, rules, needs and promotional content | Plan useful community participation without fake testimonials or bulk posting |
+| Public-sector social listening | Track public policies, service feedback and open discussions | Produce neutral issue summaries and timelines; online activity is not a public-opinion poll |
+| 1688 sourcing | Compare suppliers, kits, SKUs, minimum orders and tier prices | Prepare procurement candidates and verification questions; listings do not certify quality or authorization |
+| Cross-marketplace pricing | Compare 1688, Amazon, Temu and Walmart by model, pack size and included functions | Study productization without treating price differences as profit |
 
-上面的电商、供应链和公共议题研究是可按主题适配的扩展工作流，**不是包内已经封装的一键功能**。使用当前宿主暴露的 ClaudeBaby 工具并核验字段；没有目标平台或评论/SKU 数据时说明缺口。报告结构需要按用途调整，不强行把商品或评论都写成营销案例。
+Commerce, sourcing and public-issue studies are adaptable workflows, **not bundled one-click features**. Use the ClaudeBaby tools actually exposed by the host, verify fields and report missing coverage. Adapt the output schema to the task.
 
-## 我们实际用它做过什么，为什么做
+## What we have used this workflow for
 
-| 实际使用主题 | 使用者的意图 | 研究帮助推进的目标 |
+| Study | Intent | Goal supported |
 | --- | --- | --- |
-| 中国品牌出海首年，重点 X 与 Reddit | 回看“刚开始怎样做”，而不只看今天规模；补查非官方讨论和最早可找到的线索 | 给创业团队提供早期运营与社区推广的参考 |
-| B 端社媒获客案例 | 学习不同平台如何建立信任、吸引咨询和发现客户 | 把案例拆成自己的渠道与内容试验 |
-| 独立站、SEO/GEO 与 Reddit，剔除纯营销帖 | 找到有过程、有依据、可学习的实践 | 为品牌搜索、内容与社区增长选择方法 |
-| AI 创意广告研究 | 学习创意、制作方法、图片与视频表现，并尝试迁移到其他品牌 | 建立创意参考库，准备 AI 制作方案；这是研究意图，不是投放成果声明 |
-| ESP32 + Agent/AI 案例 | 了解硬件怎样接入 Agent，选择值得开发和让用户复刻的场景 | 为 AuraBaba 的产品接入、案例内容与引流方案提供依据 |
-| ESP32 采购与海外产品对照 | 找低成本组件和完整套件，核验 SKU，了解海外卖家增加了哪些功能与配件 | 形成采购候选和产品化建议；没有据此声称完成采购、量产或获利 |
+| Chinese brands' first overseas year, especially X and Reddit | Find early actions and non-official discussion | Learn launch and community methods |
+| B2B social acquisition | Understand trust-building and inquiry generation | Design channel experiments |
+| Independent sites, SEO/GEO and Reddit, excluding pure promotional posts | Find practices with processes and evidence | Choose search, content and community approaches |
+| AI creative ads | Learn concepts and methods for other brands | Prepare creative references and production plans, not claim campaign results |
+| ESP32 with agents/AI | Find useful, reproducible hardware scenarios | Inform AuraBaba integration, demo content and acquisition plans |
+| ESP32 sourcing and overseas product comparisons | Check low-cost parts, complete kits and actual SKUs | Prepare procurement and productization options, not claim purchases, manufacturing or profit |
 
-这些经历展示了一条研究链：**发现案例 → 拆解方法 → 明确受众与需求 → 设计试验/产品方案 → 选择采购与内容路径**。skill 提供研究材料和判断依据；开发、发布、投放、采购与客户转化需要另外执行和验证。
+The sequence is: **find examples → analyze methods → identify users and needs → design experiments → choose sourcing and content paths**. Development, publishing, purchasing and conversion still require separate execution and validation.
 
-## 可以直接参考的请求
+## Example requests
 
-- **获客：**“整理我们这个行业的 B 端社媒获客案例，区分公开结果和推导，写清适合谁、怎么试，做含配图的 Excel。”
-- **需求：**“读取这个产品/竞品的实际评论与差评，归类问题、保留原文，整理改进建议和需要进一步验证的需求。”
-- **采购：**“用 ClaudeBaby 查询 1688 上完整开发套件，核对具体 SKU、起订量、配件和价格；不要把裸板或外壳当整套。”
-- **产品化：**“对照国内供应与海外电商，按型号和装数比较，说明卖家增加了什么；把事实、猜测和建议分开。”
-- **公共聆听：**“中立整理某公共机构相关的政策、服务反馈与公开讨论，明确时间窗口、来源和缺口，输出议题时间线。”
+- “Research B2B acquisition cases in our industry, with methods, outcome evidence, audience fit and an illustrated workbook.”
+- “Read actual competitor reviews and complaints; retain source text and distinguish needs from your recommendations.”
+- “Query complete 1688 development kits through ClaudeBaby; verify SKUs, minimum orders, included parts and prices.”
+- “Compare domestic sourcing and overseas offers by model and pack size, separating facts, hypotheses and advice.”
+- “Neutrally summarize a public institution's policies, service feedback and discussion over a defined time window.”
 
-## 已有案例：回看中国品牌出海的第一年
+## Example: the first year of Chinese brands overseas
 
-一次历史追溯研究整理了六个品牌的44条事件，涵盖一加、安克、拓竹、Keychron、Snapmaker和EcoFlow。研究把预热、启动后首年与其他早期线索分开，也同时看官方、媒体、社区管理员和用户讨论。
+One historical study organized 44 events across OnePlus, Anker, Bambu Lab, Keychron, Snapmaker and EcoFlow. It separated pre-launch activity, first-year records and other early clues, and included official accounts, media, community moderators and users.
 
-例如，一加的记录能看到联系社区管理员、安排负责人问答的动作；Keychron的用户帖子显示了“先众筹购买、后在Reddit分享”的顺序；拓竹的讨论同时留下真实演示、耗材与交付方面的问题。我们把这些线索整理成方法参考，而没有把互动、众筹额和渠道销量混为一谈。
+OnePlus records show contact with moderators and executive Q&A. A Keychron post describes buying through crowdfunding before sharing on Reddit. Bambu Lab discussions include questions about demonstrations, materials and delivery. These are method references, not proof that social engagement or crowdfunding totals equal channel-attributed sales.
 
-下面是该批次实际交付的局部截图，展示输出结构。截图内容为中文，其他语言版本沿用同一份示例。历史示例的覆盖不代表当前连接一定具备相同平台权限。
+The following are excerpts from an actual workbook. The sample screenshots remain in Chinese in all language editions. Historical sample coverage does not guarantee the same platform permissions in a current connection.
 
-### 方法拆解
+### Method breakdown
 
-![逐条方法拆解示例](assets/readme/methods.png)
+![Method breakdown sample](assets/readme/methods.png)
 
-### 不同品牌如何参考
+### Brand adaptations
 
-![不同品牌参考示例](assets/readme/brand-reference.png)
+![Brand reference sample](assets/readme/brand-reference.png)
 
-### 全参与者时间线与效果证据
+### Timeline and outcome evidence
 
-![历史时间线示例](assets/readme/timeline.png)
+![Timeline sample](assets/readme/timeline.png)
 
-Excel sample 文件统一放在 [`outputs/`](outputs/)；README 会按各份文件的真实主题介绍对应内容。
+Excel samples belong in [`outputs/`](outputs/); each file is introduced by its actual research topic.
 
-## 使用
+## Usage
 
-将这个文件夹安装到你的 Agent 所支持的 skills 目录，在会话中调用 `$social-case-to-excel`，并提供研究主题、目标平台、时间范围和所需案例数量。例如：
+Install this folder in your Agent’s supported skills directory. Invoke `$social-case-to-excel` with a topic, platforms, date range and desired number of cases. For example:
 
-> 回看几个中国品牌出海的早期历史。重点查 X 与 Reddit，区分官方、媒体和用户记录；整理方法、效果证据、不同品类如何参考，输出含配图的 Excel 和学习文档。
+> Reconstruct the early overseas history of several Chinese brands using X and Reddit. Include official, media and user records, methods, outcome evidence and adaptations by category. Produce an illustrated Excel workbook and research document.
 
-Python 表格构建需要 `openpyxl`、`Pillow`。脚本是研究与构建模板，需要按本轮主题适配；其他平台调用使用当前宿主连接暴露的 ClaudeBaby 工具。
+Python workbook generation requires `openpyxl` and `Pillow`. Scripts are templates to adapt for each study. For other platforms, use the ClaudeBaby tools exposed by the host connection.
 
-## 数据连接
+## Data connection
 
-此版本统一使用 **ClaudeBaby** 数据服务。Reddit、X、YouTube、B站等是目标平台，实际可用范围取决于连接暴露的工具和权限。
+This version uses **ClaudeBaby** as its sole data service. Reddit, X, YouTube and Bilibili are target platforms; available tools and permissions determine coverage.
 
-首次使用先检查已有 ClaudeBaby MCP 连接，核对目标平台能力；未配置时再引导注册与配置。包内 HTTP 客户端可执行：
+At first use, check the existing ClaudeBaby MCP connection and target-platform capabilities. Guide registration and setup only if needed.
 
 ```bash
-python3 scripts/claudebaby_preflight.py          # 本地配置检查，不联网
-python3 scripts/claudebaby_preflight.py --probe  # MCP 握手与工具发现
+python3 scripts/claudebaby_preflight.py          # Offline configuration check
+python3 scripts/claudebaby_preflight.py --probe  # MCP handshake and tool discovery
 ```
 
-客户端读取 `CLAUDEBABY_MCP_URL` 与 `CLAUDEBABY_MCP_TOKEN`，兼容旧的 `REDDIT_MCP_*` 变量。MCP 地址和认证按控制台提供的信息配置，不将 token 放进报告或仓库。
+The HTTP client reads `CLAUDEBABY_MCP_URL` and `CLAUDEBABY_MCP_TOKEN`, with legacy `REDDIT_MCP_*` support. Use the endpoint and authentication information from the console; never put tokens in reports or the repository.
 
-报告会保留原帖链接、时间和证据限制。自述结果与研究推导分开，截图与封面不会被当成完整视频审看。原帖媒体的权利归相应权利人，公开复用前需确认使用范围。
+Reports preserve source links, dates and evidence limits. Reported results are distinguished from research inferences; a cover image does not establish that the full video was reviewed. Source media rights remain with their owners; check permitted use before republication.
 
-## ClaudeBaby 与项目
+## ClaudeBaby and this project
 
-[ClaudeBaby 邀请注册](https://claudebaby.cn/console/register?ref=M8YYGRN4) · 邀请码：`M8YYGRN4`。欢迎大家给我项目星标，也欢迎大家通过该链接注册可领取邀请积分；已有账户可直接使用现有连接。
+[Register with the ClaudeBaby invitation link](https://claudebaby.cn/console/register?ref=M8YYGRN4) · Invitation code: `M8YYGRN4`. Registration through this link provides invitation credits. Existing users can keep their current connection.
 
-如果这个 skill 或示例对你的调研有帮助，欢迎给本仓库点一个 ⭐ Star。
+If this skill or its samples help your research, you are welcome to ⭐ Star this repository.
 
 ```text
 social-case-to-excel/
@@ -119,12 +119,12 @@ social-case-to-excel/
 └── scripts/
 ```
 
-## 安装：把仓库链接发给 Agent
+## Install by giving your Agent the repository link
 
-不需要自己下载、解压或运行命令。复制仓库链接，粘贴到支持 Skills 的 Agent 对话框，再发送：
+You do not need to clone, download, unzip, or run a command yourself. Copy the repository https://github.com/lingling1989r/social-case-to-excel, paste it into an Agent that supports Skills, and send this prompt:
 
-> 请从这个 GitHub 仓库为你当前的 Agent 环境安装 Skill：https://github.com/lingling1989r/social-case-to-excel。请先检查仓库结构和 SKILL.md，再按当前平台支持的方式安装到可用的 skills 目录；安装后验证文件存在，并告诉我如何调用。不要执行仓库脚本或连接外部服务。若当前环境无法访问 GitHub 或写入 skills 目录，请明确告诉我下一步需要做什么，不要声称安装成功。
+> Please install the Skill from this GitHub repository for your current Agent environment: https://github.com/lingling1989r/social-case-to-excel. Inspect the repository and SKILL.md first. Use the installation method supported by this platform, install it in an available skills directory, verify that it is present, and tell me how to invoke it. Do not run repository scripts or connect external services during installation. If you cannot access GitHub or write to a skills directory here, tell me the exact next step; do not claim installation succeeded.
 
-安装完成后，在同一对话中调用 $social-case-to-excel，并提供主题、平台、时间范围和案例数量。Codex、Claude Code、Cursor、WorkBuddy 等产品能否直接按链接安装，取决于各自当前的 Skill 导入能力；纯网页聊天若不能访问 GitHub 或写入 Skill 目录，就按平台自己的导入方式操作。
+After installation, invoke $social-case-to-excel in the same Agent and describe your topic, platforms, date range, and case count. Whether Codex, Claude Code, Cursor, WorkBuddy, or another product can install directly from a link depends on that product's current Skill-import support. If a web chat cannot access GitHub or write files, follow its own import flow.
 
-[GitHub 仓库](https://github.com/lingling1989r/social-case-to-excel) · Agent 无法按链接安装时，请让它说明该平台支持的导入步骤。
+[GitHub repository](https://github.com/lingling1989r/social-case-to-excel) · If link-based installation is unavailable, ask your Agent for the platform's supported import steps.
