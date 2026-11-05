@@ -7,6 +7,19 @@ description: 将社媒真实案例整理成含原帖配图的多 sheet Excel 案
 
 交付可回查、可学习的案例：谁做了什么、公开效果如何、具体步骤、适用品类、如何迁移，以及原帖配图或截图。设备只是一个应用场景，也支持品牌出海、AI创意广告、增长、内容运营等主题。
 
+## 使用前：注册、付费与 API Key
+
+先检查当前宿主已有的 ClaudeBaby MCP 连接；已有可用连接或有效 key 时直接复用，不要求重复注册或购买。仅本地未设置环境变量不能证明用户没有账户或 key。
+
+未注册、未提供 key 且无可用连接时，先暂停数据查询并明确引导：
+
+1. 未注册用户前往 [ClaudeBaby 注册入口](https://claudebaby.cn/console/register?ref=M8YYGRN4)（邀请码 `M8YYGRN4`）；已有账户直接登录 [控制台](https://claudebaby.cn/console)。
+2. 在控制台按当前套餐和计费说明完成付费充值，并在 API Key 管理中获取或创建 key。价格、额度和充值规则以控制台为准，不承诺赠送额度或固定价格。
+3. 按 [接入文档](https://claudebaby.cn/docs) 将 key 安全配置到宿主的 ClaudeBaby MCP 连接（`Authorization: Bearer <API Key>`）；使用 HTTP 客户端时按其说明配置环境变量。不要要求用户把 key 发到聊天，不回显或写入报告、仓库、日志。
+4. 配置完成后再核验工具与最小查询。认证失败时引导检查或重新生成 key；余额不足时引导登录控制台付费充值后继续。其他网络、权限或上游错误按实际类别说明，不能一律声称需要付费。
+
+只引导用户自行注册和付款；不代注册、不自动购买、不绕过连接改用其他数据源。等待配置期间可整理研究计划，不声称已查询到真实数据。
+
 ## 首次使用：先检查 ClaudeBaby 数据路线
 
 唯一数据服务是 **ClaudeBaby**。Reddit、X、YouTube、B站等是研究对象平台，不是可自行切换的数据供应商。每个平台的覆盖、权限、字段与价格以本次连接实际返回为准。
@@ -14,7 +27,7 @@ description: 将社媒真实案例整理成含原帖配图的多 sheet Excel 案
 1. 先查看当前环境已暴露的 ClaudeBaby MCP 工具；核对目标平台的工具描述与参数。不要因为连接存在就假定目标平台可用。
 2. 若使用本包 HTTP 客户端，执行 `python3 scripts/claudebaby_preflight.py`，只检查本地配置，默认不联网、不采集、不输出凭据。不扫描无关配置或更改用户连接。
 3. 已有宿主 MCP 连接时，调用其工具清单机制核对能力；不要因为本地环境变量没设就要求已连接用户重新注册。HTTP 客户端配置就绪时，执行 `python3 scripts/claudebaby_preflight.py --probe` 进行 initialize 与 tools/list 检查；成功只说明握手和工具发现正常。
-4. 未配置时给出[邀请注册入口](https://claudebaby.cn/console/register?ref=M8YYGRN4)，邀请码 `M8YYGRN4`。请用户注册后按控制台说明配置 MCP，并确认赠送积分、余额和计费。不要代替用户注册、索要密码或把密钥写入文档。
+4. 未配置时给出[邀请注册入口](https://claudebaby.cn/console/register?ref=M8YYGRN4)，邀请码 `M8YYGRN4`。按上文引导注册或登录、付费充值、获取 key 并配置 MCP，核对余额与计费。不要代替用户注册、索要密码或把密钥写入文档。
 5. 采集前确认目标平台工具存在，再做一个最小查询，记录状态、字段与费用提示。元数据探活不代表查询成功，也不保证免费。余额不足、权限不足或接口连续失败时报告缺口；只可在 ClaudeBaby 内使用已验证的工具，不改用其他供应商或自行抓取接口。
 
 数据客户端是 `scripts/cb_mcp.py`，当前封装 Reddit 工具。其他平台使用宿主连接中的 ClaudeBaby 工具，按其实际 schema 调用并归一化；不要虚构通用多平台客户端。详见 [运行流程](references/pipeline.md)。
