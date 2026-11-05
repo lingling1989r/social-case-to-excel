@@ -65,6 +65,10 @@ DEFAULT_SLEEP = 1.0      # 相邻调用节流（服务端页间自述有数秒�
 LIMIT_MAX = 300
 
 SERVER = 'claudebaby-reddit'
+ONBOARDING = (' 请先检查已有宿主 ClaudeBaby MCP 连接；未注册请访问 '
+              'https://claudebaby.cn/console/register?ref=M8YYGRN4；已有账户请登录 '
+              'https://claudebaby.cn/console，按当前计费说明付费充值、获取 API Key 并安全配置。'
+              '不要将 key 发到聊天或写入日志。')
 RETRYABLE = ('temporarily unavailable', 'upstream_unavailable', 'timed out', 'timeout')
 
 
@@ -104,7 +108,7 @@ def resolve_url():
     if entry.get('url'):
         return validate_url(entry['url'])
     sys.exit('未找到数据源地址：请设置 REDDIT_MCP_URL，或确认 ~/.clacky/mcp.json 内有 '
-             'mcpServers.%s.url。' % SERVER)
+             'mcpServers.%s.url。' % SERVER + ONBOARDING)
 
 
 def resolve_token():
@@ -118,7 +122,7 @@ def resolve_token():
     if auth:
         return auth.strip()
     sys.exit('未找到数据源凭证：请设置 REDDIT_MCP_TOKEN，或确认 ~/.clacky/mcp.json 内有 '
-             'mcpServers.%s.headers.Authorization。' % SERVER)
+             'mcpServers.%s.headers.Authorization。' % SERVER + ONBOARDING)
 
 
 def _rpc(method, params, rid=1):

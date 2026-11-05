@@ -17,7 +17,8 @@ def main(argv=None):
         cb_mcp.resolve_token()
     except SystemExit:
         print(json.dumps({'status':'configuration_missing_or_invalid',
-                          'next':'Check an existing host ClaudeBaby MCP connection first. Otherwise register and configure from the console.',
+                          'next':'Check an existing host ClaudeBaby MCP connection first. If unregistered, register; otherwise sign in to the console. Follow current billing instructions to pay/top up, obtain an API key and configure it securely; never paste it into chat.',
+                          'console':'https://claudebaby.cn/console','docs':'https://claudebaby.cn/docs',
                           'register':REGISTER,'invite_code':'M8YYGRN4'}, ensure_ascii=False))
         return 2
     if not args.probe:
